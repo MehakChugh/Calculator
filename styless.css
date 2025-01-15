@@ -1,0 +1,25 @@
+.Calculator {
+    border: 2px solid black;
+    height: 270px;
+    width: 210px;
+    
+}
+
+.Calculator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;   
+}
+
+.cal-buttons{
+    text-align: center;
+    cursor: pointer;
+    height: 40px;
+
+    /* border-radius: 20px; */
+}
+
+.cal-buttons:hover {
+    background-color:cornsilk;
+}
